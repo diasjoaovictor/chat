@@ -923,10 +923,12 @@
     </section>
 
     <!-- Main content -->
-    <section class="content"><style>
+    <section class="content">
+    <style>
     .content{
        padding-top: 5px; 
-       padding-bottom: 5px; 
+       padding-bottom: 5px;
+       height: 80vh; 
     }
     .small-box{
         margin-bottom: 15px;
@@ -948,24 +950,13 @@
         
         .ImgInicial{ width: 22em; } 
     }
- 
- 
-</style> 
- 
-     
- 
-                <div class="row"> 
-                    <div class="col-md-12" style=" text-align: center;">
-                        
-												
-												
-												
-												
-												
-												
-												
-                    </div>
-                </div> 
+    </style> 
+
+    <div class="row"> 
+        <div class="col-md-12" style=" text-align: center;">
+          <?php include 'chat.php';?>
+        </div>
+    </div> 
 
  
     </section>
