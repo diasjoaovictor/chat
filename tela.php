@@ -954,7 +954,7 @@
 
     <div class="row"> 
         <div class="col-md-12" style=" text-align: center;">
-          <?php include 'chat.php';?>
+          <?php include('chat.php'));?>
         </div>
     </div> 
 
