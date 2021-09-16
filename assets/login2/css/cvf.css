@@ -1,0 +1,56 @@
+﻿.left-panel {
+    background: linear-gradient(251.16deg, #fc7732 0%, #ec4456 96.92%);
+}
+
+.focused-border {
+    border: solid 1px #ec4456;
+}
+
+.focused-icon {
+    color: #ec4456;
+}
+
+.logo {
+    background-image: url('../img/cvf-logo.png');
+    background-repeat: no-repeat;
+    height: 94px;
+    width: 143px;
+}
+
+.logo-login {
+    background-position: center bottom;
+}
+
+.path-cor-sistema {
+    fill: #ec4456;
+}
+
+.logo-marca {
+    background: url('../img/logo_cvf_40.png') no-repeat;
+    background-position: center center;
+}
+
+.btn-primary {
+    background-color: #F01E1E;
+    border-color: #F01E1E;
+}
+
+    .btn-primary:hover {
+        background-color: #fb4545;
+        border-color: #fb4545;
+    }
+
+.btn-outline-primary {
+    border-color: #F01E1E;
+    color: #F01E1E;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #fb4545;
+        border-color: #fb4545;
+    }
+
+.footer-button-bar .active {
+    color: #fc7732;
+    border-bottom: 3px solid #fc7732;
+}

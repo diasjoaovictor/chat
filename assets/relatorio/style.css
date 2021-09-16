@@ -1,0 +1,1008 @@
+/* CSS Document Login Portal*/
+
+body {
+	margin-top: 0px;
+	font-family: tahoma;
+}
+
+td img {display: block;}body,td,th {
+	font-family: tahoma;
+	font-size: 12px;
+}
+
+a {
+	font-family: tahoma;
+	font-size: 12px;
+}
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+/*Background Portal*/
+
+.topoErroRight{
+	background-image:url(../imagens/imgLoginTopoRight.jpg);
+	background-repeat:no-repeat;
+	right:0;
+	width:360px;
+	height:65px;
+	border:0;
+}
+
+.loginPortal{
+	background-image:url(../imagens/imgLoginBgBox.jpg);
+	background-repeat:no-repeat;
+	width:444px; 
+	text-align:center;
+	height:150px;
+	border:0;
+	}
+.topoLoginLeft{
+	background-image:url(../imagens/imgLoginTopoLeft.jpg);
+	background-repeat:no-repeat;
+	left:0;
+	width:360px;
+	height:65px;
+	border:0 ;
+}
+
+.topoLoginMeio{
+	background-image:url(../imagens/imgLoginTopoMeio.jpg);
+	background-repeat:repeat-x;
+	width:250px;
+	height:65px;
+	border:0;
+}
+
+.topoLoginRight{
+	background-image:url(../imagens/imgLoginTopoRight.jpg);
+	background-repeat:no-repeat;
+	right:0;
+	width:360px;
+	height:65px;
+	border:0;
+}
+
+.telaLoginBgLogPortalTop{
+	background-image:url(../imagens/imgLoginBgLogPortalTop.jpg);
+	background-repeat:no-repeat;
+	width:263px;
+	height:132px;
+	border:0; 
+}
+
+.telaLoginBgPortalMeio{
+	background-image:url(../imagens/imgLoginBgMeio.jpg);
+	background-repeat:no-repeat;
+	width:444px;
+	height:132px;
+	border:0; 
+}
+
+.telaLoginTelasTop{
+	background-image:url(../imagens/imgLoginBgTelasTop.jpg);
+	background-repeat:no-repeat;
+	right:0;
+	width:263px;
+	height:132px;
+	border:0;
+}
+
+.telaLoginBgLogPortal{
+	background-image:url(../imagens/imgLoginBgLogPortal.jpg);
+	background-repeat:no-repeat;
+	width:263px;
+	height:352px;
+	border:0;
+}
+
+.telaLoginBgTelas{
+	background-image:url(../imagens/imgLoginBgTelas.jpg);
+	background-repeat:no-repeat;
+	width:263px;
+	height:352px;
+	border:0;
+}
+
+.telaLoginBgBase{
+	background-image:url(../imagens/imgLoginBgBase.jpg);
+	background-repeat:no-repeat;
+	width:444px;
+	height:202px;
+	border:0;
+}
+
+.telaLoginFooterLeft{
+	background-image:url(../imagens/imgloginBoxBaseLeft.jpg);
+	background-repeat:no-repeat;
+	width:30px;
+	height:20px;
+	border:0;
+}
+
+.telaLoginBoxFooter{
+	background-image:url(../imagens/ginBgFooterRepeat.jpg);
+	background-repeat:repeat-x;
+	width:960px;
+	height:20px;
+	border:0;
+}
+
+.telaLoginBoxFooterBase{
+	background-image:url(../imagens/imgloginBoxFooterShadowBase.jpg);
+	background-repeat:no-repeat; 
+	width:33px; 
+	height:18px; 
+	border:0;
+}
+
+.telaLoginBoxFooterRight{
+	background-image:url(../imagens/imgloginBoxLateralBaseRight.gif);
+	background-repeat:no-repeat; 
+	width:22px; 
+	height:42px; 
+	border:0; 
+}
+
+.telaLoginFooter{
+	background-image:url(../imagens/ginBgFooterRepeat.jpg);
+	background-repeat:repeat-x;
+	width:960px;
+	height:21px;
+	border:0;
+	left:0;
+}
+
+.telaLoginFooterLeft{
+	background-image:url(../imagens/imgLoginBgFooterLeft.jpg);
+	background-repeat:no-repeat;
+	width:5px;
+	height:21px;
+	border:0;
+}
+
+.telaLoginFooterRight{
+	background-image:url(../imagens/ginBgFooterRight.jpg);
+	background-repeat:no-repeat;
+	width:5px;
+	height:21px;
+	border:0;
+}
+
+/*Box de Login*/
+
+.loginBoxTopoLeft{
+	background-image:url(../imagens/imgloginBoxTopoLeft.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:25px;
+	border:0;
+}
+
+.loginBoxTopo{
+	background-image:url(../imagens/imgloginBoxTopoMeio.gif);
+	background-repeat:repeat-x;
+	width:384px;
+	height:25px;
+	border:0;
+}
+
+.loginBoxTopoRight{
+	background-image:url(../imagens/imgloginBoxTopoRight.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:25px;
+	border:0;
+}
+
+.loginBoxLateralLeft{
+	background-image:url(../imagens/imgloginBoxLateralLeft.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:95px;
+	border:0;
+}
+
+.loginBoxBrancoLeft{
+	width:55px; 
+	height:95px; 
+	border:0;
+}
+
+.loginBoxLabelTop{
+	width:304px;
+	height:24px;
+	border:0;
+	text-align:center;
+}
+
+.loginBoxLabelUser{
+	width:72px;
+	height:20px;
+	border:0;
+}
+
+.loginBoxLabelSenha{
+	width:72px;
+	height:20px;
+	border:0;
+}
+
+#loginBoxUser{
+	width:136px; 
+	height:20px; 
+	border:0;
+}
+
+#loginBoxSenha{
+	width:136px; 
+	height:20px; 
+	border:0;
+}
+
+.loginBoxIcoUser{
+	width:25px; 
+	height:20px; 
+	border:0;
+}
+
+.loginBoxIcoSenha{
+	width:25px; 
+	height:20; 
+	border:0px;
+}
+
+.loginBoxIcoTrocarSenha{
+	width:33px;
+	height:24px;
+	border:0;
+	text-align:right;
+}
+
+.loginBoxLateralRight{
+	background-image:url(../imagens/imgloginBoxLateralRight.gif);
+	background-repeat:repeat-x;
+	width:50px;
+	height:83px;
+	text-align:left;
+	margin-right:10px;
+	border:0;
+}
+
+.loginBoxBaseLeft{
+	background-image:url(../imagens/imgloginBoxBaseLeft.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:30px;
+	border:0;
+}
+
+.loginBoxBaseFooter{
+	background-image:url(../imagens/imgloginBoxFooter.gif);
+	background-repeat:no-repeat;
+	width:359px;
+	height:30px;
+	border:0;
+}
+
+.loginBoxBaseIcoChangeSenha{
+	width:33px;
+	height:24px;
+	border:0;
+}
+
+.loginBoxBaseRight{
+	background-image:url(../imagens/imgLoginBoxBaseRight.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:30px;
+	border:0;
+}
+
+.loginBoxBaseMeioLeft{
+	background-image:url(../imagens/imgLoginBoxBaseMeioLeft.gif);
+	background-repeat:no-repeat;
+	width:122px;
+	height:30px;
+	border:0;
+}
+
+.loginBoxBaseMeioRight{
+	background-image:url(../imagens/imgLoginBoxBaseMeioRight.gif);
+	background-repeat:no-repeat;
+	width:122px;
+	height:30px;
+	border:0;
+}
+
+.loginBoxPassword{
+	width:229px;
+	height:31px;
+	border:0;
+}
+
+.loginBoxDel{
+	width:229px;
+	height:12px;
+	border:0;
+}
+
+.loginBoxIcoEnter{
+	width:60px;
+	height:60px;
+	border:0;
+	vertical-align:top;
+}
+
+.loginBoxBaseMeio{
+	background-image:url(../imagens/imgLoginBoxBaseMeio.gif);
+	background-repeat:no-repeat;
+	width:140px;
+	height:16px;
+	border:0;
+}
+
+.imgloginBoxFooterBase{
+	background-image:url(../imagens/imgloginBoxFooterShadowBase.gif);
+	background-repeat:no-repeat;
+	width:33px;
+	height:18px;
+	border:0;
+}
+
+.loginBoxNovoDelBase{
+	width:233px;
+	height:3px;
+	border:0;
+}
+
+.loginBoxNovoDelmeio{
+	width:233px;
+	height:8px;
+	border:0;
+}
+
+/*Tela Trocar Senha*/
+
+.trocarSenhaPortal{
+	background-image:url(../imagens/imgTrocarSenhaBgBox.jpg);
+	background-repeat:no-repeat;
+	width:444px;
+	height:200;
+	border:0;
+	vertical-align:top;
+	text-align:center;
+}
+
+.trocarSenhaBgBase{
+	background-image:url(../imagens/imgTrocarSenhaBgBase.jpg);
+	background-repeat:no-repeat;	
+	width:444px;
+	height:152px;
+	border:0;
+	}
+
+.trocarSenhaBoxTopoLeft{
+	background-image:url(../imagens/imgTrocarSenhaBoxTopoLeft.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:26px;
+	border:0;
+}
+
+.topoTrocarSenhaMeio{
+	background-image:url(../imagens/imgLoginBoxTopoRepeat.gif);
+	background-repeat:repeat-x;
+	width:384px;
+	height:26px;
+	border:0;
+}
+
+.trocarSenhaBoxTopoRight{
+	background-image:url(../imagens/imgTrocarSenhaBoxTopoRight.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:26px;
+	border:0;
+}
+
+.trocarSenhaBoxLateralLeft{
+	background-image:url(../imagens/imgTrocarSenhaBoxLateralLeft.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:149px;
+	border:0;
+}
+
+.trocarSenhaBoxLaterLeftBranco{
+	width:31px;
+	height:149px;
+	border:0;
+}
+
+.trocarSenhaBoxLabeltxt{
+	width:259px;
+	height:24px;
+	border:0;
+	vertical-align:middle;
+	padding-left:5px;
+}
+.trocarSenhaBoxLabeltxt2{
+	width:259px;
+	height:24px;
+	border:0;
+	vertical-align:middle;
+	padding-left:5px;
+	color:red;
+	text-align:center;
+}
+
+.trocarSenhaBoxLabelBranco{
+	width: 89px;
+	height:24px;
+	border:0;
+}
+
+.trocarSenhaLabelUser{
+	width:93px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaBoxUser{
+	width:135px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaIcoUser{
+	width:36px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaSeparaBox{
+	width:264px;
+	height:9px;
+	border:0;
+}
+
+.trocarSenhaLabelPassword{
+	width:93px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaBoxPassword{
+	width:135px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaIcoPassword{
+	width:36px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaLabelNewPassword{
+	width:93px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaBoxNewPassword{
+	width:135px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaIcoNewPassword{
+	width:36px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaLabelConfirmPassword{
+	width:93px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaBoxConfirmPassword{
+	width:135px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaIcoConfirmPassword{
+	width:36px;
+	height:20px;
+	border:0;
+}
+
+.trocarSenhaSeparaBoxBase{
+	width:264px;
+	height:10px;
+	border:0;
+}
+
+.trocarSenhaBtOk{
+	width:89px;
+	height:100px;
+	border:0;
+}
+
+.trocarSenhaBoxLateralRight{
+	background-image:url(../imagens/imgtrocarSenhaBoxLateralRight.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:123px;
+	border:0;
+}
+
+.trocarSenhaBoxBaseBranco{
+	width:64px;
+	height:24px;
+	border:0;
+}
+
+.trocarSenhaBtVoltar{
+	width:31px;
+	height:24px;
+	border:0;
+}
+
+.trocarSenhaLateralRightBase{
+	background-image:url(../imagens/trocarSenhaLateralRightBase.gif);
+	background-repeat:no-repeat;
+	width:24px;
+	height:24px;
+	border:0;
+}
+/*
+.trocarSenhaBoxBaseMeioLeft{
+	background-image:url(../imagens/Login/imgTrocarSenhaBoxBaseMeioLeft.jpg);
+	background-repeat:no-repeat;
+	width:122px;
+	height:29px;
+	border:0;
+}
+
+.trocarSenhaBoxBaseMeioLeft{
+	background-image:url(../imagens/Login/imgTrocarSenhaBoxBaseMeioLeft.jpg);
+	background-repeat:repeat-x;
+	width:140px;
+	height:26px;
+	border:0;
+}
+
+.trocarSenhaBoxBaseMeioRight{
+	background-image:url(../imagens/Login/imgTrocarSenhaBoxBaseMeioRight.jpg);
+	background-repeat:no-repeat;
+	width:122px;
+	height:29px;
+	border:0;
+}
+
+.trocarSenhaBoxBaseRight{
+	background-image:url(../imagens/Login/imgTrocarSenhaBoxBaseRight.jpg);
+	background-repeat:no-repeat;
+	width:30px;
+	height:29px;
+	border:0;
+}
+*/
+.trocarSenhaFooterLeft{
+	background-image:url(../imagens/imgTrocarSenhaBoxBaseLeft.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:25px;
+	border:0;
+}
+
+.trocarSenhaFooterMeio{
+	background-image:url(../imagens/imgLoginBoxBaseMeioRepeat.gif);
+	background-repeat:repeat-x;
+	width:384px;
+	height:25px;
+	border:0;
+}
+
+.trocarSenhaFooterRight{
+	background-image:url(../imagens/imgLoginBoxBaseRight.gif);
+	background-repeat:no-repeat;
+	width:30px;
+	height:25px;
+	border:0;
+}
+
+
+
+
+.labelMensagem {
+	 margin-width:10px;
+	 text-align:center;
+	 color:#535973; 
+	 font-family:verdana; 
+	 font-size:10px;
+	 font-weight:bolder
+
+}
+
+.telaLoginBgPortalMeioError{
+	background-image:url(../imagens/Login/imgLoginBgMeioMensageErro.jpg);
+	background-repeat:no-repeat;
+	width:444px;
+	height:132px;
+	border:0; 
+}
+
+/*Tela de Erro*/
+
+.telaErroBgTelas{
+	/*background-image:url(../imagens/imgErroBgTelas.jpg);
+	background-repeat:no-repeat;*/
+	width:263px;
+	height:340px;
+	border:0;
+}
+
+.telaErroBgLogPortalTop{
+	background-image:url(../imagens/imgErroBgLogPortalTop.jpg);
+	background-repeat:no-repeat;
+	width:263px;
+	height:132px;
+	border:0; 
+}
+
+.telaErroTelasTop{
+	background-image:url(../imagens/imgErroBgTelasTop.jpg);
+	background-repeat:no-repeat;
+	right:0;
+	width:263px;
+	height:132px;
+	border:0;
+}
+
+.telaErroBgLogPortal{
+	/*background-image:url(../imagens/imgErroBgLogPortal.jpg);
+	background-repeat:no-repeat;*/
+	width:263px;
+	height:352px;
+	border:0;
+}
+
+.telaErroBgBase{
+	/*background-image:url(../imagens/imgErroBgBase.jpg);
+	background-repeat:no-repeat;*/
+	width:444px;
+	height:202px;
+	border:0;
+}
+
+.telaErroBgPortalMeioError{
+	background-image:url(../imagens/Login/imgErroBgMeioMensageErro.jpg);
+	background-repeat:no-repeat;
+	width:444px;
+	height:132px;
+	border:0; 
+}
+
+.ErroPortal{
+	background-image:url(../imagens/imgErroBgBox.jpg);
+	background-repeat:no-repeat;
+	width:444px; 
+	text-align:center;
+	height:163px;
+	border:0;
+	}
+	
+.topoErroRight{
+	background-image:url(../imagens/imgErroTopoRight.jpg);
+	background-repeat:no-repeat;
+	right:0;
+	width:360px;
+	height:65px;
+	border:0;
+}
+
+body                    { SCROLLBAR-FACE-COLOR: #efefef; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #d1d1d1; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #343498; SCROLLBAR-DARKSHADOW-COLOR: #d1d1d1; SCROLLBAR-BASE-COLOR: #d1d1d1;  }
+
+.label                  { margin-width: 10;text-align: 'right';color: '#535973'; font-family: 'verdana'; font-size:7pt ; font-weight: bolder }
+.labelCenter            { text-align: 'center';color: '#535973'; font-family: 'verdana'; font-size:7pt ; font-weight: bolder; text-decoration: none }
+.labelLeft              { text-align: 'left';color: '#535973'; font-family: 'verdana'; font-size:7pt ; font-weight: bolder }
+.labelLeftCor           { text-align: 'left';color: '#343498'; font-family: 'verdana'; font-size:7pt ; font-weight: bolder }
+.labelLeftSemBoldCor    { text-align: 'left';color: '#343498'; font-family: 'verdana'; font-size:7pt ; font-weight: normal }
+.labelCenterBoldCor     { text-align: 'center';color: '#343498'; font-family: 'verdana'; font-size:7pt ; font-weight: bolder }
+.labelCenterCor         { text-align: 'center';color: '#343498'; font-family: 'verdana'; font-size:7pt ; font-weight: normal; text-decoration: none }
+.labelMensagem          { margin-width: 10;text-align: 'center';color: '#535973'; font-family: 'verdana'; font-size:10pt ; font-weight: bolder }
+.labelSecundario        { text-align: 'left'; color: '#333333'; font-family: 'verdana'; font-size:7pt ; font-weight: normal }
+.labelSecundarioRadio   { text-align: 'left'; color: '#333333'; font-family: 'verdana'; font-size:7pt ; font-weight: normal }
+.labelSecundarioItalico { color: '#333333'; font-family: 'verdana'; font-size:8pt ; font-weight: normal; font-style: italic }
+.labelRed               { text-align: 'left';color: #D92D27; font-family: 'verdana'; font-size:7pt ; font-weight: bolder }
+.labelRedCenter         { text-align: 'center';color: #D92D27; font-family: 'verdana'; font-size:7pt ; font-weight: bolder }
+
+.labelExplica           { text-align: 'justify';color: '#535973'; font-family: 'verdana'; font-size:7pt ; font-weight: normal }
+.labelExplicaBarra      { cursor: hand; color: '#535973'; font-family: 'verdana'; font-size:7pt ; font-weight: normal; width: 50 }
+
+.fontLink               { text-align: 'left'; color: '#0000FF'; font-family: 'verdana'; font-size:7pt ; font-weight: normal }
+.fontLinkCenter         { text-align: 'center'; color: '#0000FF'; font-family: 'verdana'; font-size:7pt ; font-weight: normal; text-decoration: none }
+ 
+<!-- formata barras e fontes de T�tulos -->
+.barraTitulo            { text-align: 'left'; color: '#343498'; font-family: 'verdana'; font-size:9pt ; font-weight: bolder; height:10 }
+.barraTituloCenter      { text-align: 'center'; color: '#343498'; font-family: 'verdana'; font-size:9pt ; font-weight: bolder; height:10 }
+.barraTituloPeq         { text-align: 'left'; color: '#343498'; font-family: 'verdana'; font-size:8pt ; font-weight: normal; height:10; background-color:'#F7F7F7' }
+.barraTituloPeqCenter   {  text-align: 'center'; color: '#343498'; font-family: 'verdana'; font-size:8pt ; font-weight: normal; height:10; background-color:'#F7F7F7' }
+.barraTituloN2          { text-align: 'left'; color: '#666666'; font-family: 'verdana'; font-size:8pt ; font-style: italic }
+
+.espacoMargem           { border: 0; cellspacing: 0; cellspadding:0; height:12 }
+.espacoTitulo           { width:'10'; height:'38' }
+
+.telaPrincipal          { width:100%; padding:20; heigth:400 }
+.telaPrincipalAdvanced  { width:100%; padding:20; heigth:100% }
+.telaPrincipalPequena   { width:100%; padding:10 }
+.telaCadastro           { border-width:3D'2'; width:100%; height:100% }
+.telaForm               { text-align: left }
+.contemPesquisa         { padding:7; padding-top:0 ; padding-left:0 ; border-style: solid;  border-color:#cccccc; border-width: 1; background-color:#E8E8E8; }
+.linhaTelaPesquisa      { padding:2; background-color:#F7F7F7; text-align: center; color: '#535973'; font-family: 'verdana'; font-size:7pt ; font-weight: bolder; text-decoration: none  }
+
+.tamanhoImagem          { width: 2 } 
+
+<!-- botao New -->
+
+.separaSupNew           { height: 1 }
+.alinhaNew              { text-align: right; background-color:#F7F7F7 }
+.alinhaOld              { padding:1; border-style: solid;  border-color:#cccccc; border-width: 1; text-align: left; background-color:#F7F7F7 }
+
+<!-- Separadores de Campo e linhas -->
+.barraFina              { background-color: '#054483'; height: 1 }
+.barraFinaGray          { background-color: '#ffffff'; height: 1 }
+.barraFinaGray2         { background-color: '#ffffff'; height: 1 }
+<!-- cad cabecalho -->
+.barraFinaGrayCab       { background-color: '#cccccc'; height: 1 }
+.barraFinaRedCab        { background-color: '#D7332D'; height: 1 }
+.barraFinaGrayClara     { background-color: '#F7F7F7'; height: 3 }
+.barraSepara            { background-color: '#9fcbff'; height: 5 }
+.separaCampo            { width:6 }
+.separaLinha            { height:7 }
+.separaBotao            { width: 5 }
+
+.separaColuna           { width: 15 }
+.separaColunaMenor      { width: 8 }
+
+<!-- posicao botoes de baixo -->
+.posicaoBotoes          { text-align: 'right'; height:10 }
+
+<!-- formata edit -->
+
+<!-- formata check e radios -->
+.conteudoSelecao        { font-family: 'verdana'; font-size:9pt }
+<!-- formata bot�o -->
+.conteudoBotao          { cursor:hand; border-color:#cccccc; color: #666666; font-weight: 'bolder'; font-family: 'arial' ; font-size: 10; border-style: solid; border-width: 1; height: 18; width:80; background-color: '#e8e8e8' }
+.conteudoBotaoGrande          { cursor:hand; border-color:#cccccc; color: #666666; font-weight: 'bolder'; font-family: 'arial' ; font-size: 10; border-style: solid; border-width: 1; height: 18; width:120; background-color: '#e8e8e8' }
+.conteudoBotaoPequeno   { cursor:hand; border-color:#cccccc; color: #666666; font-weight: 'bolder'; font-family: 'arial' ; font-size: 10;  height: 18; width:90; background-color: '#e8e8e8' }
+.conteudoBotaoPesq      {  }
+.imagemBotao            { cursor:hand }
+
+.telaFundo              { border-style: solid;  border-color:#707898; border-width: 1; background-image: url('../imagens/fundoTela.jpg'); padding: 10 }
+.telaFundoCaixa         { border-style: solid;  border-color:#cccccc; border-width: 1; background-image: url('../imagens/fundoTelaCaixa.jpg'); padding: 6 }
+.telaFundoCaixaAux      { border-style: none;  padding: 3 }
+.telaShortCuts          { width: 100% }
+
+.telaFundoExplica             { border-style: solid;  border-color:#707898; border-width: 1; background-image: url('../imagens/fundoTela.jpg')}
+.telaFundoExplica .margem     { padding: 20 }
+
+.telaFundoLogin               { border-style: solid;  border-color:#cccccc; border-width: 1; background-image: url('../imagens/fundoTelaCaixa.jpg'); padding:15 }
+.telaFundoLogin .margemMenor  { padding: 2 }
+
+<!-- visualiza imagem cabecalho -->
+.telaVisualizacao             { border-style: solid;  border-color:#cccccc; border-width: 1; background-color: #ffffff; padding:5; text-align:center; width:100%; height:100% }
+.telaVisualizacaoLink         { border-style: solid;  border-color:#cccccc; border-width: 1; background-color: #ffffff; padding:5; text-align:left; width:100%; height:100% }
+.telaVisualizacaoLink td      { height:14 }
+.alinhaTelaVisualizacao       { text-align:center }
+.espacoTextoCaixaVertical     {  }  
+.telaVisualizacaoBotao        { border-style: solid;  border-color:#cccccc; border-width: 1; background-color: #ffffff; padding:1; text-align:right; width:100% }
+
+.fundoLado                    { background-image: url('../imagens/fundoLado.gif')}
+.fundoLadoSuperior            { background-image: url('../imagens/fundoLadoSuperior.gif')}
+ 
+.fundoCabPortal               { background-image: url('../imagens/cabPortalMeio.jpg'); width: 100% ; heigth: 100% }  
+.fundoCabPortal th            { width: 10 }  
+.fundoCabPortal td            { text-align: right } 
+
+<!-- celula tabela -->
+.formataTabela        { background-color: #cccccc; border-color:#ffffff; color: #333333; font-weight: 'bolder'; font-family: 'arial' ; font-size: 10; border-style: solid; border-width: 1;  width:'100%' }
+.formataTabela tr     { background-color: #FFFFFF }
+.formataTabela th     { background-color: '#e8e8e8';color: '#666666'; font-family: 'verdana'; font-size:7pt ; font-weight: normal; padding: 2 ; text-align: 'left'; }
+.formataTabela td     { cursor:hand; height:18; padding: 4  }
+.formataTabela td.tdCenter, th.thCenter { cursor:hand; height:18; padding: 4 ; text-align: center }
+<!--.formataTabela th.thCenter { cursor:hand; height:18; padding: 4 ; text-align: center }-->
+
+<!--.formataTabela2             { background-color: #cccccc; border-color:#ffffff; color: #333333; font-family: 'arial' ; font-size: 11; border-style: solid; border-width: 0;  width:'100%' }
+.formataTabela2 tr          { background-color: #ffffff }
+.formataTabela2 th          { background-color: '#e8e8e8';color: '#666666'; font-family: 'verdana'; font-size:11 ; font-weight: 'bolder'; padding: 1 ; text-align: 'left'; }
+.formataTabela2 td         {font-weight: 'normal';}
+.formataTabela2 th.strongTh { background-color: '#cccccc';color: '#666666'; font-family: 'verdana'; font-size:12 ; font-weight: 'bolder'; padding: 1 ; text-align: 'left'; }
+.formataTabela th.centerTh  { background-color: '#e8e8e8';color: '#666666'; font-family: 'verdana'; font-size:7pt ; font-weight: normal; padding: 2 ; text-align: 'center'; }
+
+-->
+<!-- Panels -->
+.formataTabela2        { background-color: #cccccc; border-color:#ffffff; color: #333333; font-weight: 'bolder'; font-family: 'arial' ; font-size: 11; border-style: solid; border-width: 1;  width:'100%' }
+.formataTabela2 tr     { background-color: #FFFFFF }
+.formataTabela2 th     { background-color: '#e8e8e8';color: '#535973'; font-family: 'verdana'; font-size:11 ; font-weight: normal; padding: 2 ; text-align: 'left'; }
+.formataTabela2 td     { cursor:hand; height:18; padding: 4  }
+.formataTabela2 th.strongTh { background-color: '#cccccc';color: '#535973'; font-family: 'verdana'; font-size:11 ; font-weight: 'bolder'; padding: 1 ; text-align: 'left'; }
+.formataTabela2 .barraFinaGrayCab  { background-color: '#cccccc'; height: 1 }
+
+.formataTabela3        { background-color: #cccccc; border-color:#ffffff; color: #333333; font-weight: 'bolder'; font-family: 'arial' ; font-size: 11; border-style: solid; border-width: 1;  width:'100%' }
+.formataTabela3 tr     { background-color: #FFFFFF }
+.formataTabela3 th     { background-color: '#e8e8e8';color: '#535973'; font-family: 'verdana'; font-size:11 ; font-weight: normal; padding: 2 ; text-align: 'left'; }
+.formataTabela3 td     { cursor:default; height:18; padding: 4  }
+.formataTabela3 th.strongTh { background-color: '#cccccc';color: '#535973'; font-family: 'verdana'; font-size:11 ; font-weight: 'bolder'; padding: 1 ; text-align: 'left'; }
+.formataTabela3 .barraFinaGrayCab  { background-color: '#cccccc'; height: 1 }
+
+<!-- formata tabela result -->
+.formataTabelaResult       { background-color: #cccccc; border-color:#cccccc; color: #333333; font-weight: 'bolder'; font-family: 'arial' ; font-size: 10; border-style: solid; border-width: 2;  width:'100%'; margin:1 }
+.formataTabela .barraFinaGrayCab  { background-color: '#cccccc'; height: 1 }
+
+<!-- Formata componentes da tela passo4 da tela de cadastro deportlet SQl -->
+.divListaColunaSqlPasso4 { height:165; overflow:auto; width: 100% }                    
+.comboTamFixo130 {border-color: '#999999'; border-style: solid; border-width: 1; font-family: 'verdana'; font-size:7pt; width:130px}
+.comboTamFixo80 {border-color: '#999999'; border-style: solid; border-width: 1; font-family: 'verdana'; font-size:7pt; width:80px}
+.comboTamFixo300 {border-color: '#999999'; border-style: solid; border-width: 1; font-family: 'verdana'; font-size:7pt; width:300px}
+.comboTamFixo325 {border-color: '#999999'; border-style: solid; border-width: 1; font-family: 'verdana'; font-size:7pt; width:325px}
+
+<!-- Panels -->
+.panels                 { text-align: 'left';  }
+.panelsth               { text-align: 'left';  }
+.espacoAba              { width: 25;  }
+.ocupaAbas              { width: 100%;  }
+.abaAtiva               { cursor:hand; border:0; color: #535973; font-weight: 'bold'; font-family: 'verdana' ; font-size: 7pt; height: 18; width:100; background-color: '#e8e8e8'; paddin:0; margin-bottom-width:0 }
+.tablePanel             { padding:7;border-color:#cccccc; border-width:1; border-top-width:0 ; color: #666666; font-weight: 'bolder'; font-family: 'arial' ; font-size: 10; border-style: solid; width:100%; background-color: '#F7F7F7'; }    
+.tablePaneltd           { }    
+.borderBottomInativa    { border-left-width:1; border-right-width:1; border-left-color:#cccccc; border-right-color:#cccccc; background-color: #cccccc; height:1  }
+.borderBottom           { background-color: #cccccc; height:1  }
+.borderBottomAba        { background-color: #cccccc; border-style: solid; border-color: '#cccccc'; border-width:1; border-bottom-width:0  }
+
+ 
+
+.conteudoBotaoControle          { cursor:hand }
+.separaLinhaControle            { height:20 }
+.telaSubPainelControleTexto th  { height:27 }
+.telaSubPainelControleTexto     { width:155; height:36 }
+.telaContemTexto                { padding: 5 }
+ 
+.divLista               { position:relative; height:200; overflow:auto; width: 100% }
+.linha                  { background-color: '#ffffff' }
+
+
+ 
+.cabecalho              {  } 
+
+ 
+
+.distanciaTitulo           { height: 4 }
+
+
+.separaLink                { width: 10 }
+.tableContemPortlet        { background-color: '#E5E5E5'; padding: 10; width: 100%; height: 80%;overflow:auto  }
+.labelPortlet              { background-color: #A4CBF6; text-align: left;color: #00509F; font-family: 'verdana'; font-size:7pt ; font-weight: bolder }
+.labelCenterLink           { text-align: 'center';color: #00509F; font-family: 'verdana'; font-size:7pt ; font-weight: bolder; text-decoration: none; width: 90 }
+.labelLeftLink             { text-align: 'center';color: #00509F; font-family: 'verdana'; font-size:7pt ; font-weight: bolder; text-decoration: none }
+.separaCabecalhoMenu       { height:3; background-color: #ffffff } 
+.separaMenuPortlet         { height:1; background-color: #ffffff } 
+.abaCenterLink             { text-align: 'center';color: #FFFFFF; font-family: 'verdana'; font-size:7pt ; font-weight: bolder; text-decoration: none; padding-top:4px; } 
+.interiorPortlet           { background-color: #FFFFFF; width: 100%; padding: 10; border-style: solid; border-color: #A4CBF6; border-width: 0 }
+.interiorPortletBKP        { background-color: #FFFFFF; width: 100%; padding: 10; border-style: solid; border-color: #A4CBF6; border-width: 1 } 
+.portletFullScreen         { background-color: #FFFFFF; width: 100%; padding: 0; border-width: 0 } 
+.pastaFullScreen           { background-color: '#E5E5E5'; padding: 0; width: 100%; height: 100%;overflow:auto  }
+.tituloPortlet             { width: 100% } 
+.separaAbaTitulo           { background-color: #A4CBF6; width: 4 } 
+.separaAbaTituloCor        { background-color: #A4CBF6;  } 
+.separaColunaPasta         { width: 10 }   
+.separaPortlet             { height: 10 }   
+.divPrincipal              { height:100%; width: 100%; } 
+
+<!-- telaCustomizar -->
+
+.tableContemCustomPortlet  { padding: 10; }
+
+
+.linhaBorda                { width: 100% }
+.dentroColuna              { padding: 10; padding-bottom:0; padding-top: 0; border-style: solid;  border-color:#cccccc; border-width: 1; }
+.separaBotaoPortlet        { width: 3 } 
+.separaPortletCustom       { height: 3 }    
+.espacoPortletCustom       { padding: 3; padding-left:7; padding-right:7; width: 100% } 
+
+<!-- cadastro de querys -->
+
+.cadastroQueryLabelNegrito      { text-align: left;color: '#000000'; font-family: 'verdana'; font-size:7pt; font-weight: bolder }
+.cadastroQueryLabel             { text-align: left;color: '#000000'; font-family: 'verdana'; font-size:7pt }
+.cadastroQueryLabelSelecionada  { text-align: left;color: '#000000'; font-family: 'verdana'; font-size:7pt ; font-weight: bolder }
+.cadastroQueryLabelMensagem     { text-align: left;color: '#343498'; font-family: 'verdana'; font-size:7pt ; font-weight: bold }
+.cadastroQueryConteudoCampo     { border-color: '#999999'; border-style: solid; border-width: 1; font-family: 'verdana'; font-size:7pt }
+.cadastroQueryTextArea          { border-color: '#535973'; border-style: solid; border-width: 2; font-family: 'verdana'; font-size:8pt }
+.cadastroQueryLabelMicroStrategy             {text-decoration: none; text-align: left;color: '#000000'; font-family: 'verdana'; font-size:7pt; font-weight: normal }
+
+<!-- cadastro de portlet -->
+.iframePortlet           { height:220; width: 870; }
+.divListaColunaSql       { height:130; overflow:auto; width: 100% }
+.divListaParamSql        { background-color:#ffffff; height:150; overflow:auto; width: 100% }
+.divSql                  { background-color:#ffffff; position: relative; height:145; overflow:auto; width: 100% }
+.divHtml                 { background-color:#ffffff; position: absolut; height:155; overflow:auto; width: 100% }
+.tituloQueryConfirma     { text-align: left;color: '#000000'; font-family: 'verdana'; font-size:7pt }
+
+<!-- celula tabelaSql -->
+.formataTabelaSql          { color: #333333;  font-family: 'arial' ; font-size: 10px; text-align: left; width:'100%' }
+.formataTabelaSql th       { font-size:11   }
+
+<!-- tela Seleciona portlet --> 
+
+.tableSelecionaPortlet     {  }
+.separaTelas               { height:4  } 
+
+
+<!-- tela Seleciona portlet --> 
+.tableAreaLogoErro         { width: 100%; } 
+.areaLogoErro              { background-image: url('imagens/fundoLogoErro.gif'); width: 100% }
+
+<!-- Customizacao Portlet Tempor�rios -->
+.interiorPortlet2        { background-color: #FFFFFF; width: 100%; border-style: solid; border-color: #A4CBF6; border-width: 1 } 
+.interiorPortlet2Antonio { background-color: #000000; width: 100%; border-style: solid; border-color: #A4CBF6; border-width: 1 }
+.tableContemPortlet2     { background-color: '#E5E5E5'; padding: 10; width: 100%; height: 100%  }
+.taxas                   { background-color: #EEF0F3; width: 100%; padding: 10; border-style: solid; border-color: #A4CBF6; border-width: 1 }
+
+<!-- telas de passos -->
+
+.telaSQLPassos           { background-color:#F7F7F7 }
+
+<!-- tela lista de valores -->
+
+.divListaColuna          { background-color: #ffffff; height:123; overflow:auto; width: 100% }
+
+<!-- divLista portlet microstrategy -->
+.divListaPortlet         { position:relative; height:160; overflow:auto; width: 260; background-color: #ffffff; margin:5 }
+.mostraObjetos           { text-align: left;color: '#000000'; font-family: 'verdana'; font-size:7pt; width: '100%';  }
+.itemSelecionado         { background-color: #cccccc  }
+.mensagem                { color: red; text-align: 'left'; font-family: 'verdana'; font-size:7pt  }
+
+<!-- acrescenta p�gina -->
+.barraTituloErro         { text-align: 'left'; color: 'red'; font-family: 'verdana'; font-size:8pt ; font-style: italic }
+
+<!-- fontes sql -->
+.testeDataSourceOk       { text-align: 'center'; color: 'blue'; font-family: 'verdana'; font-size:8pt ; font-style: italic }
+.testeDataSourceErro     { text-align: 'center'; color: 'red'; font-family: 'verdana'; font-size:8pt ; font-style: italic }
+
+.tdImagem                { text-align: center }  
+.linhaHorizontal         { text-align: center; background-color: black; width: 100%; height:1}
+
+.divListaParamPortletJsp { height:155; overflow:auto; width: 550 }      
+
+.indicadorConfiguracao {background-color: #F3F3F3; border: 1px solid #66CCFF; border-width: 1;height: 150px;width: 200px;  font-family: 'verdana'; font-size:7pt ; font-weight: bolder; text-decoration: none;text-align: center; color: '#535973';}
+
+
+.conteudofile {border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;-o-border-radius:2px;-ms-border-radius:2px; border:1px solid #cccccc;
+font-size:12px; height:18px; padding-left:5px;}
+.conteudoCampo { font-family: Tahoma; font-size:12px; background-image:url(../imagens/bg-campo-texto.jpg); border:1px #cccccc solid; text-transform:uppercase; font-size:11px; }
+select { padding:2px; height:20px;}
+input[type=text]:focus,input[type=password]:focus,textarea:focus,select:focus{background:#efefef}
+.conteudoCombo { border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px; border:1px solid #000000; }
+.SubMenu a{color:#FFFFFF; font-weight:normal;}
+.celula-titulo { font-size: 11px; font-family: Verdana; font-weight: Bold; Color: #000000;	background: #C0C0C0; padding-left:15px;	height: 15px; border-top: #000000 solid 1px; border-bottom: #000000 solid 1px; height: 30px;}
+.SubMenu{margin-top:20px;}
+
+.conteudoCampoSenha { font-family: Tahoma; font-size:12px; background-image:url(../imagens/bg-campo-texto.jpg); border:1px #cccccc solid; text-transform:lowercase;font-size:11px; }
+textarea {border: 1px solid #ccc; height:40px; width:690px; border-radius: 3px; font-family: inherit; padding: 6px; padding: 0.428571429rem;}
+conteudoSelect {border: 1px solid #ccc; height:40px; width:690px; border-radius: 3px; font-family: inherit; padding: 6px; padding: 0.428571429rem;}
+/*Reset CSS*/

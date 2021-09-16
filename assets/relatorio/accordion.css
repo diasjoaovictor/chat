@@ -1,0 +1,9 @@
+#accordion { margin-bottom:30px; }
+#accordion p {margin:0; padding:0;}
+#accordion h3 {background-color:#EAEAEA; margin:0; padding:0; border:1px solid #999; cursor:pointer; height:25px; padding:5px 0 0 10px;}
+#accordion h3 a {color:#333; font-size:14px; font-weight:normal; text-decoration:none; font-family:Arial, Helvetica, sans-serif;}
+.titulo_os h3{background-color:#DFDFDF; margin:0; padding:0; border:1px solid #999; cursor:pointer; height:25px; padding:5px 0 0 10px;}
+.titulo_os h3 a {color:#333; font-size:14px; text-decoration:none; font-family:Arial, Helvetica, sans-serif; margin-top:100px;}
+.opcao { margin-top:5px;}
+
+.pergunta { margin-top:15px;}

@@ -1,0 +1,54 @@
+function mostra_reg_agen($id_host){
+				
+				    $data = date("Y-m-d");
+						$datad = date("Y-m-d", time() + (1 * 86400));
+						
+						$sql = "SELECT * , date_format( stamp, '%H:%m' ) AS hora
+                    FROM calendario
+                    WHERE stamp
+                    BETWEEN '$data' AND '$datad' AND id_host = '$id_host'";
+						$query = mysql_query($sql);
+					
+						if(mysql_num_rows($query)>0){
+						
+						  ?>
+						  <table width="134" border="0" cellpadding="0" cellspacing="0">
+                 <tr>
+                   <td width="100%" height="24" align="left" valign="middle" bgcolor="#FFFFFF"><div align="center"><b class="style1">Eventos de Hoje</b> </div></td>
+                 </tr>
+              </table>
+							<table width="134"  border="0" cellpadding="0" cellspacing="0">
+							<?
+							 
+							   while($result=mysql_fetch_array($query)){
+								 
+								   ?>
+								   <tr bgcolor="#EFFFDE">
+                      <td width="40" height="17" valign="top"><div align="left"> <span class="texto_thin_t"><strong><?=$result[hora];?>h</strong></span></div></td>
+                      <td height="20" valign="top"><div align="left"><span class="texto_thin_t"> <?=$result[subject];?> </span></div></td>
+                   </tr>
+								   <?
+								   }//Fim while
+							
+							  echo "</table>";
+							 
+						 }//Fim if num_rows
+                                    
+                                      
+           }//Fim mostra reg
+					 
+					 
+					function mostra_data(){
+					
+					  $semana[0]="Domingo";
+						$semana[1]="Segunda";
+						$semana[2]="Terça";
+						$semana[3]="Quarta";
+						$semana[4]="Quinta";
+						$semana[5]="Sexta";
+						$semana[6]="Sabado";
+						
+						echo $semana[date("w")].", ".date("d/m/Y");
+						
+					 }//Fim mostra data
+				
