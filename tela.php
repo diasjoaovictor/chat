@@ -17,20 +17,20 @@
    <script src="assets/toastr/jquery.min.js"></script>
    <link href="assets/toastr/font-awesome.min.css" rel="stylesheet" />
   <style>
-	/*
-	.table-striped>tbody>tr:nth-of-type(odd) {
-		background-color: #eff5f2;
-	}
-	thead{
-		background:#008948;
-		color: #ffffff;
-		font-weight: 600;
-		font-size: 1.0em;
-	}
-	*/
-	.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
-		border: 1px solid #d8d8d8;
-	}
+  /*
+  .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #eff5f2;
+  }
+  thead{
+    background:#008948;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.0em;
+  }
+  */
+  .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #d8d8d8;
+  }
  
   </style>
   <!-- WhatsApp -->
@@ -63,10 +63,10 @@
   <script src="assets/js/jQuery-2.1.4.min.js"></script>
   
     <style>
-    	.error{
-    		color:red;
-    		font-weight: normal;
-    	}
+      .error{
+        color:red;
+        font-weight: normal;
+      }
         
         .center{ text-align: center;}
         .right{ text-align: right;}
@@ -126,34 +126,34 @@
      table>tbody{
         text-transform: uppercase;
     }
-	
-	
-	
-	/*
-  	.sortable{
-		width:100%; 
-		border-collapse:collapse; 
-	}
-	.sortable td{ 
-		padding:7px; border:#4e95f4 1px solid;
-	}
-	.sortable tr{
-		background: #b8d1f3;
-	}
-	.sortable tr:hover {
+  
+  
+  
+  /*
+    .sortable{
+    width:100%; 
+    border-collapse:collapse; 
+  }
+  .sortable td{ 
+    padding:7px; border:#4e95f4 1px solid;
+  }
+  .sortable tr{
+    background: #b8d1f3;
+  }
+  .sortable tr:hover {
           background-color: #ffff99;
-     	}
-	*/
-	
-	/*
-	
-	.box-body .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-	  background-color: #87e2b7;
-	  border: 1px solid #87e2b7;
-	  color: #ffffff;
-	}
-	*/
-	
+       }
+  */
+  
+  /*
+  
+  .box-body .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #87e2b7;
+    border: 1px solid #87e2b7;
+    color: #ffffff;
+  }
+  */
+  
 .modal-header {
     border-bottom-color: #666;
     border-top: 1px solid #666;
@@ -162,7 +162,7 @@
     background: #666;
     color: white;
 }
-	 
+   
 </style> 
 <!-- EFEITOS DOS INPUTS -->
 <style>
@@ -302,7 +302,24 @@
     .LogoMenu2 { display: none; }
     .sidebar-collapse .LogoMenu { display: none; }
     .sidebar-collapse .LogoMenu2 { display: block; }
-  
+    
+    .sidebar{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .user-panel{
+      height: auto;
+    }
+
+    .navbar-static-top{
+      display: flex
+    }
+    .navbar-custom-menu{
+      display: flex;
+      justify-content: flex-end;
+    }
 </style>
 
   <script>
@@ -326,7 +343,7 @@
     <link rel="stylesheet" type="text/css" href="assets/toastr/toastr.min.css">
     <script type="text/javascript">
         
-         	
+           
             
     </script>
 </div>
@@ -906,18 +923,18 @@
  
     
     <section class="content-header" style="background: #f9fafc;">
-	    <div class="row"> 
+      <div class="row"> 
             <div class="col-md-8 col-sm-8 col-xs-8">
-				<span style=" font-size: 18px;">  Sistema de Apoio </span> <small> </small>
-			</div>
-			
-			<div class="col-md-4 col-sm-4 col-xs-4">
-				<ol class="" style="top: 0px; text-align:right;">
-										
-									</ol>
-			</div>
-		</div>
-	  	
+        <span style=" font-size: 18px;">  Sistema de Apoio </span> <small> </small>
+      </div>
+      
+      <div class="col-md-4 col-sm-4 col-xs-4">
+        <ol class="" style="top: 0px; text-align:right;">
+                    
+                  </ol>
+      </div>
+    </div>
+      
         
 
     </section>
@@ -952,12 +969,10 @@
     }
     </style> 
 
-    <div class="row"> 
-        <div w3-include-html="chat.php">
-         
-        </div>
-    </div> 
-
+    
+    <div>
+      <?php include('chat.php')?>
+    </div>
  
     </section>
     <!-- /.content -->
