@@ -312,6 +312,11 @@
       .user-panel{
         height: auto;
       }
+      @media (min-width: 1200px){
+        .container {
+            max-width: 85% !important ;
+        }
+      }
 
       .navbar-static-top{
         display: flex
@@ -320,6 +325,7 @@
         display: flex;
         justify-content: flex-end;
       }
+
   </style>
 
     <script>

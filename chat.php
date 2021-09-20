@@ -668,24 +668,32 @@
       }
 
       .dropup-content-paperclip {
-        display: block;
+        display: none;
         position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
+        min-width: 100px;
         bottom: 50px;
         z-index: 1;
         width: auto;
         height: auto;
+        margin-left: 30px;
       }
 
     .dropup-content-paperclip a {
       color: black;
       padding: 12px 16px;
       text-decoration: none;
-      display: block;
+      display: flex;
       border: 1px #000 solid;
-      border-radius: 50%;
+      border-radius: 100%;
       margin: 10%;
+      margin-left: 30%;
+      width: 45%;
+      justify-content: center;
+      height: 45px;
+      transition: 0.5s;
+    }
+    .dropup-content-paperclip a:hover{
+      transform: scale(1.05);
     }
 
       .message-bottom{
@@ -1225,6 +1233,7 @@
               <div class="col-sm-12 message-main-receiver">
                 <div class="receiver">
                   <div class="message-text">Hi, what are you doing?!</div>
+                  <span class="message-time pull-right"> 20:00</span>
                   <span class="message-time pull-right"> </span>
                 </div>
               </div>
@@ -1248,14 +1257,14 @@
               <i class="fa fa-smile-o fa-2x"></i>
             </div>
             <div class="col-sm-1 col-xs-1 reply-emojis">
-              <i class="fa fa-paperclip fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-paperclip fa-2x" aria-hidden="true" onclick="alterDisplay('.dropup-content-paperclip')" id="anex"></i>
             </div>
-            <div class="dropup-content-paperclip">
-              <a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-file" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-camera" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>   
+            <div class="dropup-content-paperclip" id="anexGrop">
+              <a href="#" style="background-color: #4079ec;border-color:#4079ec"><i class="fa fa-video-camera" aria-hidden="true" style="font-size: 20px;color:white"></i></a>
+              <a href="#" style="background-color: #0eabf4;border-color:#0eabf4;"><i class="fa fa-user" aria-hidden="true" style="font-size: 20px;color:white"></i></a>
+              <a href="#" style="background-color: #5157ae;border-color:#5157ae;"><i class="fa fa-file" aria-hidden="true" style="font-size: 20px;color:white"></i></a>
+              <a href="#" style="background-color: #ec407a;border-color:#ec407a;"><i class="fa fa-camera" aria-hidden="true" style="font-size: 20px;color:white"></i></a>
+              <a href="#" style="background-color: #bf59cf;border-color:#bf59cf"><i class="fa fa-picture-o" aria-hidden="true" style="font-size: 20px;color:white"></i></a>   
             </div>
             <div class="col-sm-9 col-xs-9 reply-main">
               <textarea class="form-control" rows="1" id="comment"></textarea>
