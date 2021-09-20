@@ -6,7 +6,7 @@
     <title>Bootstrap framework snippet Whatsapp web chat template - Bootsnipp.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+   
 
     <style type="text/css">
         html,
@@ -592,7 +592,51 @@
             padding: 5px 2px 5px 0 !important;
             font-size: 1.8em !important;
           }
-        }    
+        }  
+        
+        
+        ..dropbtn-conversation, .dropbtn-menu {
+          border: none;
+          cursor: pointer;
+        }
+
+        .dropdown-content {
+          
+          position: absolute;
+          right: 0;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+          z-index: 1;
+          height: auto;
+          width: auto;
+          margin-top: 3%;
+          margin-right: 4%;
+        }
+
+        .dropdown-content-menu{
+          position: absolute;
+          right: 0;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+          z-index: 1;
+          height: auto;
+          width: auto;
+          margin-top: 6%;
+          margin-right: 8%;
+        }
+
+        .dropdown-content a, .dropdown-content-menu a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .dropdown-content a:hover, .dropdown-content-menu a:hover {
+          background-color: #f1f1f1;
+        }
 </style>
     <script src="assets/chat/js/jquery-1.11.1.min.js"></script>
     <script src="assets/chat/js/bootstrap.min.js"></script>
@@ -622,8 +666,17 @@
               <img src="assets/chat/img/avatar1.png">
             </div>
           </div>
-          <div class="col-sm-1 col-xs-1  heading-dot  pull-right">
+          <div class="col-sm-1 col-xs-1  heading-dot  pull-right dropbtn-menu" onclick="alterDisplay('.dropdown-content-menu')">
             <i class="fa fa-ellipsis-v fa-2x  pull-right" aria-hidden="true"></i>
+          </div>
+          <div class="dropdown-content-menu" style="display: none;">
+            <a class="dropdown-item" href="#">Novo grupo</a>
+            <a class="dropdown-item" href="#">Criar uma sala</a>
+            <a class="dropdown-item" href="#">Arquivadas</a>
+            <a class="dropdown-item" href="#">Favoritas</a>
+            <a class="dropdown-item" href="#">Silenciar notificações</a>
+            <a class="dropdown-item" href="#">Configurações</a>
+            <a class="dropdown-item" href="#">Desconectar</a>
           </div>
           <div class="col-sm-2 col-xs-2 heading-compose  pull-right">
             <i class="fa fa-comments fa-2x  pull-right" aria-hidden="true"></i>
@@ -1063,13 +1116,18 @@
           </a>
           <span class="heading-online">Online</span>
         </div>
-        <div class="col-sm-1 col-xs-1  heading-dot pull-right" id="dropdownMenuButton" data-toggle="dropdown" >
+
+        <div class="col-sm-1 col-xs-1  heading-dot pull-right dropbtn-conversation" onclick="alterDisplay('.dropdown-content')">
           <i class="fa fa-ellipsis-v fa-2x  pull-right" aria-hidden="true"></i>
         </div>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Alguma ação</a>
-          <a class="dropdown-item" href="#">Outra ação</a>
-          <a class="dropdown-item" href="#">Alguma coisa aqui</a>
+        <div class="dropdown-content" style="display: none;">
+          <a class="dropdown-item" href="#">Dados do contato</a>
+          <a class="dropdown-item" href="#">Denunciar empresa</a>
+          <a class="dropdown-item" href="#">Bloquear</a>
+          <a class="dropdown-item" href="#">Selecionar mensagem</a>
+          <a class="dropdown-item" href="#">Silenciar notificações</a>
+          <a class="dropdown-item" href="#">Limpar mensagens</a>
+          <a class="dropdown-item" href="#">Apagar conversa</a>
         </div>
       </div>
 
@@ -1145,13 +1203,22 @@
     });
 })	</script>
 <script>
-  tinymce.init({
-    selector: "#mytextarea",
-    plugins: "emoticons",
-    toolbar: "emoticons",
-    toolbar_location: "bottom",
-    menubar: false
-  });
+  const alterDisplay = (elem) =>{
+    
+    element = document.querySelector(elem);
+    
+
+    if(element.style.display == 'none'){
+      element.style.display = 'block';
+      console.log(element.style.display,'block');
+    }
+      
+    else{
+      element.style.display = 'none';
+      console.log(element.style.display, 'none');
+    }
+      
+  }
 </script>
 </body>
 </html>
