@@ -26,10 +26,10 @@ body {
 }
 /* Layout */
 .wrapper {
-  height: 100%;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
+  min-height: 10% !important;
 }
 .wrapper:before,
 .wrapper:after {

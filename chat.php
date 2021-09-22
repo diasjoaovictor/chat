@@ -14,12 +14,16 @@
     />
 
     <style type="text/css">
+    /*Emojis*/
+    .wrapper{
+      min-height: 10% !important;
+    }
+    /*Emojis*/
+
       html,
       body,
       div,
       span {
-        height: 100%;
-        width: 100%;
         overflow: hidden;
         padding: 0;
         margin: 0;
@@ -39,8 +43,7 @@
         position: relative;
         overflow: hidden;
         top: 19px;
-        height: 75vh;
-        margin: 0;
+        height: 80vh;
         padding: 0;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06),
           0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -108,6 +111,7 @@
       .heading-name {
         padding: 0 !important;
         cursor: pointer;
+        max-height: 100%;
       }
 
       .heading-name-meta {
@@ -263,7 +267,7 @@
           width: 18px;
           border: 1px #23d85b solid;
           border-radius: 50%;
-          height: 34px;
+          height: 20px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -362,7 +366,7 @@
         background-size: cover;
         overflow-y: auto;
         border: 1px solid #f7f7f7;
-        height: calc(100% - 120px);
+        height: calc(100% - 140px);
       }
       .message-previous {
         margin: 0 !important;
@@ -411,7 +415,6 @@
 
       .message-time {
         margin: 0 !important;
-        margin-left: 50px !important;
         font-size: 12px;
         text-align: right;
         color: #9a9a9a;
@@ -707,16 +710,19 @@
         padding-right: 5%;
         color: #9a9a9a;
       }
-      .message-check-active{
-        width: auto;
-        padding-left: 5%;
-        padding-right: 5%;
-        color: #1ba4ff;
+
+      .chat__msg-status-icon {
+          color: #B3B3B3;
+          margin-left: 3px;
+      }
+      .chat__msg-status-icon--blue {
+          color: #0DA9E5;
       }
 
       .heading-name-2{
         border-left: 2px #93918f solid;
         margin-left: 2%;
+        max-height: 100%;
       }
       .info-user{
         
@@ -1234,7 +1240,6 @@
                 <div class="receiver">
                   <div class="message-text">Hi, what are you doing?!</div>
                   <span class="message-time pull-right"> 20:00</span>
-                  <span class="message-time pull-right"> </span>
                 </div>
               </div>
             </div>
@@ -1245,7 +1250,22 @@
                   <div class="message-text">I am doing nothing man!</div>
                   <div class="message-bottom">
                     <span class="message-time pull-right"> 20:00</span>
-                    <span class="message-check pull-right"><i class="fa fa-check" aria-hidden="true"></i></span>
+                    <span class="message-check pull-right">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15" width="16" height="15" aria-label="read" class="chat__msg-status-icon chat__msg-status-icon--blue" style="&#10;    color: #0DA9E5;&#10;"><path fill="currentColor" d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.879a.32.32 0 0 1-.484.033l-.358-.325a.319.319 0 0 0-.484.032l-.378.483a.418.418 0 0 0 .036.541l1.32 1.266c.143.14.361.125.484-.033l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.879a.32.32 0 0 1-.484.033L1.891 7.769a.366.366 0 0 0-.515.006l-.423.433a.364.364 0 0 0 .006.514l3.258 3.185c.143.14.361.125.484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z"/></svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row message-body">
+              <div class="col-sm-12 message-main-sender">
+                <div class="sender">
+                  <div class="message-text">and you?</div>
+                  <div class="message-bottom">
+                    <span class="message-time pull-right"> 20:01</span>
+                    <span class="message-check pull-right">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15" width="16" height="15" aria-label="delivered" class="chat__msg-status-icon "><path fill="currentColor" d="M15.01 3.316l-.478-.372a.365.365 0 0 0-.51.063L8.666 9.879a.32.32 0 0 1-.484.033l-.358-.325a.319.319 0 0 0-.484.032l-.378.483a.418.418 0 0 0 .036.541l1.32 1.266c.143.14.361.125.484-.033l6.272-8.048a.366.366 0 0 0-.064-.512zm-4.1 0l-.478-.372a.365.365 0 0 0-.51.063L4.566 9.879a.32.32 0 0 1-.484.033L1.891 7.769a.366.366 0 0 0-.515.006l-.423.433a.364.364 0 0 0 .006.514l3.258 3.185c.143.14.361.125.484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z"></path></svg>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -1254,7 +1274,7 @@
 
           <div class="row reply">
             <div class="col-sm-1 col-xs-1 reply-emojis">
-              <i class="fa fa-smile-o fa-2x"></i>
+              <i id="emoji-button" class="fa fa-smile-o fa-2x"></i>
             </div>
             <div class="col-sm-1 col-xs-1 reply-emojis">
               <i class="fa fa-paperclip fa-2x" aria-hidden="true" onclick="alterDisplay('.dropup-content-paperclip')" id="anex"></i>
@@ -1299,7 +1319,7 @@
       const alterDisplay = (elem) => {
         element = document.querySelector(elem);
 
-        if (element.style.display == "none") {
+        if (element.style.display === "none") {
           element.style.display = "block";
           console.log(element.style.display, "block");
         } else {
